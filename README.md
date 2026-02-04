@@ -22,19 +22,7 @@ This project helps reduce email overload by converting long emails into short, m
 - **Email Fetching**: IMAP
 - **AI Model**: Hugging Face Transformers  
   - Model: `facebook/bart-large-cnn`
-- **ML Framework**: PyTorch
 - **Messaging**: Telegram Bot API
-
 ---
 
-##  Project Structure
 
-```text
-AI_Email_Summarizer/
-│
-├── main.py               # Application entry point
-├── fetch_email.py        # Fetches emails from inbox using IMAP
-├── email_summarizer.py   # AI summarization logic using BART
-├── telegram_send.py      # Sends summaries to Telegram
-├── requirements.txt      # Project dependencies
-└── README.md             # Project documentation
